@@ -1,0 +1,44 @@
+/*about*/
+
+.about {
+
+    padding: 80px 0 80px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2,
+.about h4 {
+
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+
+.about p {
+
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+.about i {
+
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+
+@media(max-width:768px) {
+
+    .about {
+
+        padding: 30px;
+    }
+}
