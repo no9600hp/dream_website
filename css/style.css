@@ -57,16 +57,22 @@
 .about {
   padding: 80px 0 80px;
   text-align: center;
-  background-color: #fff; }
+  height: 600px;
+  background: #2980b9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .about h2,
 .about h4 {
-  color: #4c4c4c;
+  color: #fff;
   margin: 20px 0 20px;
   font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .about p {
-  color: #737373;
+  color: #fff;
   font-size: 14px;
   padding-bottom: 60px;
   font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -77,7 +83,7 @@
   font-size: 30px;
   padding: 25px 20px;
   border-radius: 50%;
-  background-color: #6699cc;
+  background-color: #66ccbc;
   color: #fff; }
 
 @media (max-width: 768px) {
@@ -152,7 +158,12 @@ body {
 .join {
   padding: 80px 0 80px;
   text-align: center;
-  background-color: #fff;
+  background: #F1F2B5;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #135058, #F1F2B5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 600px;
   color: #626262; }
 
