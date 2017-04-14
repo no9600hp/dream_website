@@ -19,6 +19,9 @@
 
 .navbar li a{
   color: #fff !important;
+  font-family: $fontfamily;
+  font-weight: $thin;
+  text-shadow:($dark 0 0 20px);
 }
 
 
