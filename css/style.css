@@ -61,7 +61,8 @@
 .about h2,
 .about h4 {
   color: #4c4c4c;
-  margin: 20px 0 20px; }
+  margin: 20px 0 20px;
+  font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .about p {
   color: #737373;
@@ -82,18 +83,17 @@
     padding: 30px; } }
 /*News*/
 .news {
-  padding: 50px 0 80px;
-  background-color: #984B43;
+  padding: 80px 0 80px;
   text-align: center;
-  color: #fff;
-  height: 500px; }
+  background-color: #fff; }
 
 .h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: 'PT Sans Narrow', Arial, sans-serif;
   font-weight: 700;
-  padding: 15px; }
+  padding: 15px;
+  font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 @media (max-width: 700px) {
   .news {
@@ -134,8 +134,9 @@ body {
     display: none; } }
 /*Team*/
 .team {
-  padding: 50px 0 80px;
-  text-align: center; }
+  padding: 80px 0 80px;
+  text-align: center;
+  background-color: #fff; }
 
 .team img {
   height: 100px;
@@ -144,10 +145,10 @@ body {
 
 /*join*/
 .join {
-  padding: 50px 0 80px;
+  padding: 80px 0 80px;
   text-align: center;
-  height: 350px;
-  background-color: #F7B733; }
+  background-color: #fff;
+  height: 600px; }
 
 .join p {
   padding-bottom: 80px;
