@@ -6,17 +6,20 @@
     text-align: center;
     background-color: #fff;
     height: 600px;
+    color: #626262;
 }
 
 
 .join p {
-
+    font-family: $fontfamily;
     padding-bottom: 80px;
     color: #737373;
+
 }
 
 .join h2 {
 
     color: #4c4c4c;
     margin: 20px 0 20px;
+    font-family: $fontfamily;
 }
